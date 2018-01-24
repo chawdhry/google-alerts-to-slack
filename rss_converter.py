@@ -79,7 +79,6 @@ def convert_content(content):
     result = content
     result = result.replace('<b>', '*')
     result = result.replace('</b>', '*')
-    print (int result)
     return result
 
 
